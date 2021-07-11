@@ -12,8 +12,8 @@ from fw import Examples
                          )
 def test_available_examples(herokuapp, py, available_example):
     """
-    Available Examples in main page are visible. By parametrizing each example, more tests can be created as the list of
-    available examples are added to the site. each test uses the same test logic but counts as individual tests.
+    Available Examples in main page are visible. By parametrizing each example, more tests may be created as the list of
+    available examples are added to the site. each test uses the same test logic, but counts as individual tests.
     :param
     herokuapp: Instance of HerokuApp
     py: Instance of Pylenium driver
