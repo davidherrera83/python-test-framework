@@ -18,7 +18,11 @@ to the mission of getting to writing tests faster.
      
     $ python -m venv "venv"
     ~~~
-    *Please Note that on Macs a version of Python comes preinstalled.*
+   
+    *Note: On Macs create a Virtual Environment with*
+   ~~~
+   $ sudo pip install pipenv
+   ~~~
    
     To check if you have Python 3x versions on a Mac, type:
     ~~~
